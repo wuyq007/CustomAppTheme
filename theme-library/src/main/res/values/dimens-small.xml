@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  小号字体  -->
+    <dimen name="app_text_title_size_small">20sp</dimen>
+    <dimen name="app_text_content_size_small">16sp</dimen>
+    <dimen name="app_text_hint_size_small">12sp</dimen>
+    <!--  小号字体  -->
+
+</resources>

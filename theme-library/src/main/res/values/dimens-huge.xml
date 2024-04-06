@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  超大字体  -->
+    <dimen name="app_text_title_size_huge">32sp</dimen>
+    <dimen name="app_text_content_size_huge">28sp</dimen>
+    <dimen name="app_text_hint_size_huge">24sp</dimen>
+    <!--  超大字体  -->
+
+</resources>

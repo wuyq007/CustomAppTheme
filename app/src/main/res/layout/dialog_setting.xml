@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="设置字体大小"
+            android:textColor="@color/black"
+            android:textSize="@dimen/app_text_title_size"
+            android:textStyle="bold"
+            app:customTextSizeEnabled="true" />
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="设置字体大小设置字体大小"
+            android:textColor="@color/black"
+            android:textSize="@dimen/app_text_content_size"
+            app:customTextSizeEnabled="true" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="设置字体大小设置字体大小设置字体大小"
+            android:textColor="@color/black"
+            android:textSize="@dimen/app_text_hint_size"
+            app:customTextSizeEnabled="true" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingStart="80dp">
+
+
+            <RadioButton
+                android:id="@+id/radioSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Small"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radioNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Normal"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radioLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Large"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radioHuge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Huge"
+                android:textColor="@color/black" />
+
+        </RadioGroup>
+    </LinearLayout>
+</layout>

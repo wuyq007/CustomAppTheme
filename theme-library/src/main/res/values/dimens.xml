@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  常规字体，在布局中使用的字体大小  -->
+    <dimen name="app_text_title_size">24sp</dimen>
+    <dimen name="app_text_content_size">20sp</dimen>
+    <dimen name="app_text_hint_size">16sp</dimen>
+    <!--  常规字体，在布局中使用的字体大小  -->
+
+</resources>

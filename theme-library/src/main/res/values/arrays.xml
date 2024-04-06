@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomChangeTextView">
+        <!--    适配文字大小开关，textView customTextSizeEnabled = "true" ,才会改变字体大小    -->
+        <attr name="customTextSizeEnabled" format="boolean" />
+    </declare-styleable>
+
+</resources>
